@@ -28,13 +28,15 @@ body.dark {
   cursor: pointer;
   transition: 0.5s;
   box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
-    inset 0 2px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.05);
+    inset 0 2px 8px rgba(0, 0, 0, 0.1),
+    inset 0 -4px 4px rgba(0, 0, 0, 0.05);
 }
 
 body.dark .button {
   background: #222;
   box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
-    inset 0 8px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+    inset 0 8px 8px rgba(0, 0, 0, 0.1),
+    inset 0 -4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .button span {
@@ -44,7 +46,8 @@ body.dark .button {
   width: 160px;
   height: 160px;
   background: linear-gradient(to bottom, #eaeaea, #f9f9f9);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1), inset 0 4px 4px rgba(0, 0, 0, 0.1),
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+    inset 0 4px 4px rgba(0, 0, 0, 0.1),
     inset 0 -4px 2px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   transform: scale(0.9);
